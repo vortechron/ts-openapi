@@ -1,0 +1,21 @@
+{
+	"name": "ts-openapi-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"generate-openapi": "tsc && node --loader=esm dist/generate-openapi.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"esm": "^3.2.25",
+		"fs": "^0.0.1-security",
+		"typeconv": "^2.3.1",
+		"typescript": "^5.4.5"
+	},
+	"type": "module"
+}
